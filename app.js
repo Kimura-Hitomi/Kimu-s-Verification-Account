@@ -35,3 +35,5 @@ app.post('/buy', (req, res) => {
 app.listen(PORT, () => {
   console.log(`サーバーが http://localhost:${PORT} で起動しました`);
 });
+
+module.exports = app;
